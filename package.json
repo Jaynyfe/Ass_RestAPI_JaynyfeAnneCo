@@ -1,0 +1,14 @@
+{
+  "name": "inm420sbb_ass_restapi",
+  "version": "1.0.0",
+  "description": "",
+    "scripts": {
+    "start": "lite-server --baseDir=public\""
+  },
+  "author": "Jaynyfe Anne Co",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

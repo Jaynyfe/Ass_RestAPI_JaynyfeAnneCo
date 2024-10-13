@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>NASA Astronomy Picture of the Day API</title>
+</head>
+<body>
+    <img src="/assets/images/NASA_logo.png" alt="NASA Logo" id="nasa-logo">
+    
+    <h1>Astronomy Picture of the Day</h1>
+    <p>Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+
+    <div id="picture-container">
+        <div id="controls">
+            <label for="datePicker">Select a date to explore: </label>
+            <input type="date" id="datePicker" name="datePicker" placeholder="yyyy-mm-dd">
+            <button onclick="fetchByDate()">Click to reveal the photo</button>
+        </div>
+
+        <div id="content-row">
+            <div id="description"></div>
+            <div id="picture-of-the-day"></div>
+        </div>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
